@@ -118,7 +118,7 @@ cmake --build build
 view the pointcloud.ply
    
 ```
-./main ../data/pointcloud.ply
+./build/main ./data/pointcloud.ply
 ```
 ![pointclodoutput](images/pointclodoutput.png)
 
