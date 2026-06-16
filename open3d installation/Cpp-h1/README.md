@@ -1,19 +1,22 @@
 
-# Homework 1: Visualizing PointClouds with Open3D
+# Point Cloud Viewer
 
-To complete this assignment, follow the steps outlined below:
+A simple C++ code that displays 3D point cloud data using the Open3D library.
 
-## Step 1: Downloading Homework Files
+## Overview
 
-1. Download the homework files available on `homework_1.zip`.
+This project provides a straightforward way to visualize point cloud files (`.ply` format) in 3D space. It uses the Open3D library to handle point cloud I/O and visualization.
 
-## Step 2:  Extracting Files
+## Features
 
-2. unzip the 'homework_1.zip' file.
-3. After extracting you have the file structure as
+- Load point cloud files in PLY format
+- Interactive 3D visualization
+- Simple and clean command-line interface
+
+## Project Structure
+
 ```
-cpp-homeworks
-|-- homework_1
+|--Cpp-h1
 |   |-- app
 |   |   `-- main.cpp
 |   |-- data
@@ -35,14 +38,8 @@ cpp-homeworks
 
 'CMakeLists': builds the project
 
-## Purpose of this assignment!
 
-To build libraries using cmake 
-`
-
-# Let's get started with Tasks as described in `homework_1.pdf`
-
-## Task 1: Install Open3D 
+## 1: Install Open3D 
 
 Download Open3D binaries based on your requirements. For Ubuntu 20.04.6 LTS, download from [here](https://github.com/isl-org/Open3D/releases/download/v0.18.0/open3d-devel-linux-x86_64-cxx11-abi-0.18.0.tar.xz) and rename the extracted folder to "open3d" in the `homework_1` folder.
 
@@ -90,7 +87,7 @@ Specifies where CMake should look for header files, ensuring that they are inclu
 Include above commands to the CMakeLists.txt
 
 
-## Task2.2 BUILD
+## 2 BUILD
 
 Goto terminal cd homework_1
 ```
@@ -114,8 +111,8 @@ cmake --build build
 ```
 
 
-## Task3 Visualize a real PointCloud
-view the pointcloud.ply
+## 3 Visualization 3D point cloud PointCloud
+The viewer supports standard Open3D visualization controls (rotation, zoom, pan)
    
 ```
 ./build/main ./data/pointcloud.ply
