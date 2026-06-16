@@ -105,7 +105,7 @@ if there is warning
 warning: libc++.so.1, needed by ../open3d/lib/libOpen3D.so, not found (try using -rpath or -rpath-link)
    
 ```
--sudo apt install libc++-dev
+sudo apt install libc++-dev
 ```
 it installs necessary libraries. Repeat command 
 
