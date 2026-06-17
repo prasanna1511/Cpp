@@ -50,7 +50,7 @@ This project provides a straightforward way to visualize point cloud files (`.pl
 
 Download Open3D binaries based on your requirements. For Ubuntu 20.04.6 LTS, download from [here](https://github.com/isl-org/Open3D/releases/download/v0.18.0/open3d-devel-linux-x86_64-cxx11-abi-0.18.0.tar.xz) and rename the extracted folder to "open3d" in the `homework_1` folder.
 
-## Task 2: Write Build System Generator using CMake
+## 2: Write CMake
 
 Ensure you have CMake installed (`cmake` command available in terminal).
 
@@ -94,7 +94,7 @@ Specifies where CMake should look for header files, ensuring that they are inclu
 Include above commands to the CMakeLists.txt
 
 
-## 2 BUILD
+## 3: BUILD
 
 Goto terminal cd homework_1
 ```
@@ -118,7 +118,7 @@ cmake --build build
 ```
 
 
-## 3 Visualization 3D point cloud PointCloud
+## 4: Visualization 3D point cloud PointCloud
 The viewer supports standard Open3D visualization controls (rotation, zoom, pan)
    
 ```
