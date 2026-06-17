@@ -1,11 +1,10 @@
 ## Contents
 
-- **Basic function implementation**  
-  Contains implementations of fundamental C++ functions. Useful for beginners or as reference code for standard C++ operations.
-
-- **open3d installation**  
+- **1 open3d installation**  
   Resources and instructions related to installing and using the [Open3D](http://www.open3d.org/) library with C++. This section is helpful if you are working with 3D data processing or visualization in C++.
 
+- **2 Basic function implementation**  
+  Contains implementations of fundamental C++ functions. Useful for beginners or as reference code for standard C++ operations
 
 # Point Cloud Viewer
 
@@ -55,7 +54,7 @@ Download Open3D binaries based on your requirements. For Ubuntu 20.04.6 LTS, dow
 
 Ensure you have CMake installed (`cmake` command available in terminal).
 
-![cmakesteps](Cpp-h1/images/cmakesteps.png)
+![3Dpointcloud visualization](https://github.com/prasanna1511/Cpp/blob/main/open3d%20installation/Cpp-h1/images/cmakesteps.png)
 
 ### Steps to Build Library (as shown in the image)
 
@@ -125,7 +124,7 @@ The viewer supports standard Open3D visualization controls (rotation, zoom, pan)
 ```
 ./build/main ./data/pointcloud.ply
 ```
-![3Dpointcloud visualization](Cpp-h1/images/pointclodoutput.png)
+![3Dpointcloud visualization](https://github.com/prasanna1511/Cpp/blob/main/open3d%20installation/Cpp-h1/images/pointclodoutput.png)
 
 
 
